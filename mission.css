@@ -1,2 +1,23 @@
-@import "tailwindcss"
-/*@import "tailwindcss
+/* font styles */
+@import "tailwindcss"; 
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-style: normal;
+}
+
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
