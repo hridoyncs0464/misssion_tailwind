@@ -1,140 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mission Tailwind</title>
 
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
-
-           <link rel="stylesheet" href="./mission.css">
-          <!-- tailwind CDN -->
-          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="poppins-regular ">
-    
-            <!-- header section -->
+    <link rel="stylesheet" href="./mission.css" />
+    <!-- tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="poppins-regular">
+    <!-- header section -->
 
     <header class="max-w-[1140px] m-auto">
-            
-        <!--  banner section  -->
-            <section class="banner flex justify-between items-center ">
-           <div class="banner-content ">
-            <h3 class="banner-title yeseva-one-regular text-[5rem] text-[#333333] mt-0">Stay Focused on <span class="text-[#FFAD5A]">Mission 2022</span></h3>
-            <p class="banner-details text-[1.125rem] text-[#3E3E3E] mb-[20px] ">Stay Focused on Mission 2022" is a motivational slogan encouraging consistent effort, clear goals, and daily discipline toward achieving personal or academic success in 2022. It emphasizes minimizing distractions and maintaining a growth mindset throughout the journey.</p>
-            <button type="button" class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959]
-            border-none px-[40px] py-[12px] rounded-[5px]">Explore Now</button>
-           </div>
-           <div class="banner-img">
-            <img src="./images/person/person-0.png" alt="">
-           </div>
-        </section>
+      <!--  banner section  -->
+      <section class="banner flex justify-between items-center">
+        <div class="banner-content">
+          <h3
+            class="banner-title yeseva-one-regular text-[5rem] text-[#333333] mt-0"
+          >
+            Stay Focused on <span class="text-[#FFAD5A]">Mission 2022</span>
+          </h3>
+          <p class="banner-details text-[1.125rem] text-[#3E3E3E] mb-[20px]">
+            Stay Focused on Mission 2022" is a motivational slogan encouraging
+            consistent effort, clear goals, and daily discipline toward
+            achieving personal or academic success in 2022. It emphasizes
+            minimizing distractions and maintaining a growth mindset throughout
+            the journey.
+          </p>
+          <button
+            type="button"
+            class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959] border-none px-[40px] py-[12px] rounded-[5px]"
+          >
+            Explore Now
+          </button>
+        </div>
+        <div class="banner-img">
+          <img src="./images/person/person-0.png" alt="" />
+        </div>
+      </section>
     </header>
 
-           <!-- main section -->
+    <!-- main section -->
     <main class="max-w-[1140px] m-auto">
-    
-        <!--  mission section -->
-        <section class="mission">
-           
-           <h3 class="mission-title text-[#13103A] font-bold text-[3rem] text-center mt-[65px]">My Mission in <span class="text-[#FFAD5A] ">2022</span></h3>
+      <!--  mission section -->
+      <section class="mission">
+        <h3
+          class="mission-title text-[#13103A] font-bold text-[3rem] text-center mt-[65px]"
+        >
+          My Mission in <span class="text-[#FFAD5A]">2022</span>
+        </h3>
 
+        <div
+          class="mission-card-container grid grid-cols-3 gap-[25px] mt-[48px]"
+        >
+          <div class="mission-card1 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
+            <img
+              class="max-w-[50%]"
+              src="./images/illustrators/illustrator-1.png"
+              alt=""
+            />
+            <h3 class="mission-card-title font-semibold text-[1.5rem]">
+              Mission
+            </h3>
+            <p class="mission-card-details text-[#424242] mt-[15px]">
+              To stay focused on consistent learning, skill-building, and
+              personal growth. Every day is a step toward becoming a better
+              version of yourself.
+            </p>
+          </div>
+          <div class="mission-card2 rounded-[26px] p-[30px] bg-[#FF5959]/10">
+            <img
+              class="max-w-[50%]"
+              src="./images/illustrators/illustrator-2.png"
+              alt=""
+            />
+            <h3 class="mission-card-title font-semibold text-[1.5rem]">
+              Vission
+            </h3>
+            <p class="mission-card-details mt-[15px] text-[#424242]">
+              To achieve excellence by combining passion with purpose. Visualize
+              long-term success and align your daily habits to support that
+              dream.
+            </p>
+          </div>
+          <div class="mission-card3 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
+            <img
+              class="max-w-[50%]"
+              src="./images/illustrators/illustrator-3.png"
+              alt=""
+            />
+            <h3 class="mission-card-title font-semibold text-[1.5rem]">
+              Goals
+            </h3>
+            <p class="mission-card-details mt-[15px] text-[#424242]">
+              Set clear, measurable targets and break them into manageable
+              tasks. Stay accountable and celebrate small wins along the way.
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <!-- devlop section -->
+      <section class="devlop flex gap-[72px] items-center mt-[86px]">
+        <div class="devlpo-img1 relative">
+          <img
+            src="./images/shapes/shape-1.png "
+            alt=""
+            class="absolute z-[0] max-w-[30%] left-[-10%] top-[20%]"
+          />
 
-           <div class="mission-card-container grid grid-cols-3 gap-[25px] mt-[48px]
-           ">
-            <div class="mission-card1 rounded-[26px] p-[30px] bg-[#4F9DA6]/10 ">
-                <img class="max-w-[50%]" src="./images/illustrators/illustrator-1.png" alt="">
-                <h3 class="mission-card-title font-semibold text-[1.5rem]">Mission</h3>
-                <p class="mission-card-details text-[#424242] mt-[15px]">To stay focused on consistent learning, skill-building, and personal growth. Every day is a step toward becoming a better version of yourself.</p>
-            </div>
-            <div class="mission-card2 rounded-[26px] p-[30px] bg-[#FF5959]/10">
-                <img class="max-w-[50%]" src="./images/illustrators/illustrator-2.png" alt="">
-                <h3 class="mission-card-title font-semibold text-[1.5rem]">Vission</h3>
-                <p class="mission-card-details mt-[15px] text-[#424242]">To achieve excellence by combining passion with purpose. Visualize long-term success and align your daily habits to support that dream.</p>
-            </div>
-            <div class="mission-card3 rounded-[26px] p-[30px]  bg-[#4F9DA6]/10">
-                <img class="max-w-[50%]" src="./images/illustrators/illustrator-3.png" alt="">
-                <h3 class="mission-card-title font-semibold text-[1.5rem] ">Goals</h3>
-                <p class="mission-card-details mt-[15px] text-[#424242]">Set clear, measurable targets and break them into manageable tasks. Stay accountable and celebrate small wins along the way.</p>
-            </div>
+          <img
+            src="./images/pictures/coding.png"
+            alt=""
+            class="relative z-[10]"
+          />
         </div>
 
-            
-
-
-     </section>
-           
-
-
-     <!-- devlop section -->
-      <section class="devlop flex gap-[72px]  items-center mt-[86px]">
-           
-           <div class="devlpo-img1 relative">
-                
-               <img src="./images/shapes/shape-1.png " alt="" class="absolute z-[0]  max-w-[30%] left-[-10%] top-[20%]">
-                
-                <img src="./images/pictures/coding.png" alt="" class="relative z-[10]">
-            
-           </div>
-
-         <div class="devloper-content  ">
-            <h3 class="devlop-title text-[#333333] font-bold text-[2.25rem] max-w-[300px] ">Develop 
-Without Limits</h3>
-            <p class="devlop-details text-[#3E3E3E] text-[1.125rem] mt-[17px]">Push the boundaries of what's possible with innovation and creativity. Whether you're building apps, websites, or ideas — let nothing limit your growth and ambition.</p>
-            <button class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959]
-            border-none px-[40px] py-[12px] rounded-[5px] mt-[18px]" >Read the  Documentation</button>
-         </div>
-
-  
-      </section>
-  
-
-
- <!-- global section -->
-      <section class="global flex flex-row-reverse  gap-[72px]  items-center mt-[86px]">
-           
-           <div class="global-img1 relative">
-                
-               <img src="./images/shapes/shape-1.png " alt="" class="absolute z-[0]  max-w-[30%] left-[85%] top-[80%]">
-                
-                <img src="./images/pictures/project.png" alt="" class="relative z-[10]">
-            
-           </div>
-
-         <div class="global-content  ">
-            <h3 class="global-title text-[#333333] font-bold text-[2.25rem] max-w-[400px] ">Know our 
- <br> Global Community</h3>
-            <p class="global-details text-[#3E3E3E] text-[1.125rem] mt-[17px]">Join a vibrant global network of learners, creators, and changemakers.
-We grow together by sharing knowledge, ideas, and experiences.</p>
-            <button class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959]
-            border-none px-[40px] py-[12px] rounded-[5px] mt-[18px]" >Read the  Documentation</button>
-         </div>
-
-           
+        <div class="devloper-content">
+          <h3
+            class="devlop-title text-[#333333] font-bold text-[2.25rem] max-w-[300px]"
+          >
+            Develop Without Limits
+          </h3>
+          <p class="devlop-details text-[#3E3E3E] text-[1.125rem] mt-[17px]">
+            Push the boundaries of what's possible with innovation and
+            creativity. Whether you're building apps, websites, or ideas — let
+            nothing limit your growth and ambition.
+          </p>
+          <button
+            class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959] border-none px-[40px] py-[12px] rounded-[5px] mt-[18px]"
+          >
+            Read the Documentation
+          </button>
+        </div>
       </section>
 
+      <!-- global section -->
+      <section
+        class="global flex flex-row-reverse gap-[72px] items-center mt-[86px]"
+      >
+        <div class="global-img1 relative">
+          <img
+            src="./images/shapes/shape-1.png "
+            alt=""
+            class="absolute z-[0] max-w-[30%] left-[85%] top-[80%]"
+          />
 
-   <!--  corona section -->
+          <img
+            src="./images/pictures/project.png"
+            alt=""
+            class="relative z-[10]"
+          />
+        </div>
+
+        <div class="global-content">
+          <h3
+            class="global-title text-[#333333] font-bold text-[2.25rem] max-w-[400px]"
+          >
+            Know our <br />
+            Global Community
+          </h3>
+          <p class="global-details text-[#3E3E3E] text-[1.125rem] mt-[17px]">
+            Join a vibrant global network of learners, creators, and
+            changemakers. We grow together by sharing knowledge, ideas, and
+            experiences.
+          </p>
+          <button
+            class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959] border-none px-[40px] py-[12px] rounded-[5px] mt-[18px]"
+          >
+            Read the Documentation
+          </button>
+        </div>
+      </section>
+
+      <!--  corona section -->
+
+      <section class="corona">
+        <h3 class="corona-title text-[#000000] font-bold text-[3rem]  text-center mt-[80px]"> Build <span class="text-[#FFAD5A]" >Corona Application</span></h3>
 
 
 
+        <div class="corona-container flex items-center  gap-[160px]">
+            <div class="corona-img relative mt-[85px]">
+            <img  class="relative z-10"  src="./images/pictures/app.png" alt="">
+          <img class="absolute rounded-[26px] max-w-[50%] left-[-20%] top-[-5%] z-0" src="./images/shapes/shape-3.png" alt="">
 
-
-
-
-
-
-
-
+         
+          <img class="absolute z-0 rounded-[26px]  max-w-[30%] left-[-2%] bottom-[1%] " src="./images/shapes/shape-3.png" alt="" >
+         
+         
+          <img class="absolute z-0 rounded-[26px] max-w-[30%] left-[72%] bottom-[20%]  " src="./images/shapes/shape-3.png" alt="" >
+        
+        
+        </div>
+        <div class="corona-content mb-100px ">
+          <h3 class="corona-content-title  text-[#000000] font-bold text-[3rem]  ">Stay safe with Go<span class="text-[#FFAD5A] " >Corona.</span> </h3>
+          <p class="corona-details text-[#3E3E3E] text-[1.125rem] mt-[17px]"">
+            Your health is our priority. GoCorona helps you track symptoms, get
+            verified information, and connect with nearby healthcare providers.
+            Stay informed, stay protected.
+          </p>
+         <button
+            class="banner-btn font-medium text-[#FFFFFF] bg-[#FF5959] border-none px-[40px] py-[12px] rounded-[5px] mt-[18px]"
+          >App Fetures </button>
+        </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
