@@ -7,12 +7,13 @@
 
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap"
       rel="stylesheet"
-    />
-
+       />
+    
     <link rel="stylesheet" href="./mission.css" />
     <!-- tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -20,10 +21,11 @@
   <body class="poppins-regular">
     <!-- header section -->
 
-    <header class="max-w-[1140px] m-auto">
+    <header class="sm:max-w-[1200px] max-w-[740px] sm:m-auto m-[50px]">
       <!--  banner section  -->
-      <section class="banner flex justify-between items-center">
-        <div class="banner-content">
+      <section class="banner flex flex-col-reverse sm:flex-row justify-between items-center ">
+
+        <div class="banner-content ">
           <h3
             class="banner-title yeseva-one-regular text-[5rem] text-[#333333] mt-0"
           >
@@ -43,14 +45,15 @@
             Explore Now
           </button>
         </div>
-        <div class="banner-img">
+
+        <div class="banner-img ">
           <img src="./images/person/person-0.png" alt="" />
         </div>
       </section>
     </header>
 
     <!-- main section -->
-    <main class="max-w-[1140px] m-auto">
+    <main class="sm:max-w-[1140px] max-w-[740px] sm:m-auto m-[30px]">
       <!--  mission section -->
       <section class="mission">
         <h3
@@ -59,10 +62,9 @@
           My Mission in <span class="text-[#FFAD5A]">2022</span>
         </h3>
 
-        <div
-          class="mission-card-container grid grid-cols-3 gap-[25px] mt-[48px]"
+        <div class="mission-card-container sm:grid-cols-3 grid-cols-1 gap-[25px]  mt-[48px]"
         >
-          <div class="mission-card1 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
+          <div class="mission-card1 rounded-[26px] p-[30px] sm:my-[30px] my-[30px] bg-[#4F9DA6]/10 ">
             <img
               class="max-w-[50%]"
               src="./images/illustrators/illustrator-1.png"
@@ -77,7 +79,7 @@
               version of yourself.
             </p>
           </div>
-          <div class="mission-card2 rounded-[26px] p-[30px] bg-[#FF5959]/10">
+          <div class="mission-card2 sm:my-[30px] my-[30px] rounded-[26px] p-[30px] bg-[#FF5959]/10">
             <img
               class="max-w-[50%]"
               src="./images/illustrators/illustrator-2.png"
@@ -92,7 +94,7 @@
               dream.
             </p>
           </div>
-          <div class="mission-card3 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
+          <div class="mission-card3 sm:my-[30px] my-[30px] rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
             <img
               class="max-w-[50%]"
               src="./images/illustrators/illustrator-3.png"
@@ -110,7 +112,8 @@
       </section>
 
       <!-- devlop section -->
-      <section class="devlop flex gap-[72px] items-center mt-[86px]">
+      <section class="devlop flex sm:flex-row flex-col   gap-[72px] items-center mt-[86px]">
+       
         <div class="devlpo-img1 relative">
           <img
             src="./images/shapes/shape-1.png "
@@ -142,11 +145,14 @@
             Read the Documentation
           </button>
         </div>
+
+<!-- sm:flex-row flex-col -->
+<!-- flex-row-reverse -->
       </section>
 
       <!-- global section -->
       <section
-        class="global flex flex-row-reverse gap-[72px] items-center mt-[86px]"
+        class="global flex  sm:flex-row-reverse flex-col  gap-[72px] items-center mt-[86px]"
       >
         <div class="global-img1 relative">
           <img
@@ -189,7 +195,7 @@
 
 
 
-        <div class="corona-container flex items-center  gap-[160px]">
+        <div class="corona-container flex sm:flex-row flex-col items-center  gap-[160px]">
             <div class="corona-img relative mt-[85px]">
             <img  class="relative z-10"  src="./images/pictures/app.png" alt="">
           <img class="absolute rounded-[26px] max-w-[50%] left-[-20%] top-[-5%] z-0" src="./images/shapes/shape-3.png" alt="">
